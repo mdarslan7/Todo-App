@@ -1,5 +1,6 @@
 /* Reset some default browser styles */
 body, h1, label, input, button {
+    font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
     border: 0;

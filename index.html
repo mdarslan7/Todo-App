@@ -3,6 +3,9 @@
 <head>
     <title>Todo List</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <script>
@@ -31,10 +34,10 @@
 <body>
     <div class="container">
         <label for="todoTitle">Todo Title:</label>
-        <input type="text" id="todoTitle" name="todoTitle">
+        <input type="text" id="title" name="todoTitle">
 
         <label for="todoDescription">Todo Description:</label> 
-        <input type="text" id="todoDescription" name="todoDescription">
+        <input type="text" id="description" name="todoDescription">
 
         <button onclick="onPress()">Send Todo</button>
     </div>
