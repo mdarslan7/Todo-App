@@ -1,5 +1,7 @@
 /* Reset some default browser styles */
 body, h1, label, input, button {
+    display: flex;
+    flex-direction: column;
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
@@ -18,10 +20,11 @@ body {
 /* Style the container */
 .container {
     background-color: #fff;
-    border-radius: 5px;
-    padding: 36px;
+    border-radius: 10px; 
+    padding: 5%; 
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
+
 
 /* Style labels and inputs */
 label {
@@ -50,4 +53,8 @@ button {
 
 button:hover {
     background-color: #0056b3;
+}
+
+#mainArea {
+    margin-top: 4%;
 }
